@@ -5,3 +5,80 @@
 body {
   font-family: sans-serif;
 }
+
+/* Header */
+header div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+header .logo {
+  color: #5c48d3;
+  font-size: 40px;
+}
+
+/* Main */
+.container {
+  /* background-color: aqua; */
+  min-height: 75vh;
+  margin: 20px auto;
+}
+
+.list-item {
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.item {
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+}
+
+.add-item {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+input,
+span {
+  margin-right: 10px;
+}
+
+.add-item button {
+  background-color: #574dcc;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.add-item button:hover,
+.item .logo:hover {
+  cursor: pointer;
+}
+
+.item .logo {
+  color: #5c48d3;
+  font-size: 15px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  color: black;
+}
+footer p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
